@@ -11,11 +11,11 @@ Pod::Spec.new do |s|
     sh Scripts/prepare_cocoapods.sh "CBL_Swift"
   CMD
 
-  s.ios.preserve_paths = 'frameworks/CBL Swift/iOS/CouchbaseLiteSwift.framework'
-  s.ios.vendored_frameworks = 'frameworks/CBL Swift/iOS/CouchbaseLiteSwift.framework'
+  s.ios.preserve_paths = 'frameworks/CBL_Swift/iOS/CouchbaseLiteSwift.framework'
+  s.ios.vendored_frameworks = 'frameworks/CBL_Swift/iOS/CouchbaseLiteSwift.framework'
 
-  s.osx.preserve_paths = 'frameworks/CBL Swift/macOS/CouchbaseLiteSwift.framework'
-  s.osx.vendored_frameworks = 'frameworks/CBL Swift/macOS/CouchbaseLiteSwift.framework'
+  s.osx.preserve_paths = 'frameworks/CBL_Swift/macOS/CouchbaseLiteSwift.framework'
+  s.osx.vendored_frameworks = 'frameworks/CBL_Swift/macOS/CouchbaseLiteSwift.framework'
 
   s.ios.deployment_target  = '9.0'
   s.osx.deployment_target  = '10.11'
