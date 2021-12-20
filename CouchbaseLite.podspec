@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.source                = { :git => 'https://github.com/couchbase/couchbase-lite-ios.git', :tag => s.version, :submodules => true }
 
   s.prepare_command = <<-CMD
-    sh Scripts/prepare_cocoapods.sh "CBL ObjC"
+    sh Scripts/prepare_cocoapods.sh "CBL_ObjC"
   CMD
 
   s.ios.preserve_paths = 'frameworks/CBL ObjC/iOS/CouchbaseLite.framework'
