@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
-  s.name                  = 'CouchbaseLite-Swift'
+  s.name                  = 'CouchbaseLite-Swift-test'
   s.version               = '2.0.0'
   s.license               = 'Apache License, Version 2.0'
   s.homepage              = 'https://github.com/couchbase/couchbase-lite-ios'
   s.summary               = 'An embedded syncable NoSQL database for iOS and MacOS apps.'
   s.author                = 'Couchbase'
-  s.source                = { :git => 'https://github.com/couchbase/couchbase-lite-ios.git', :tag => s.version, :submodules => true }
+  s.source                = { :git => 'https://github.com/matsunanaro/couchbase-lite-ios.git', :branch => 'fix_xcode_switch', :submodules => true }
 
   s.prepare_command = <<-CMD
     sh Scripts/prepare_cocoapods.sh "CBL Swift"

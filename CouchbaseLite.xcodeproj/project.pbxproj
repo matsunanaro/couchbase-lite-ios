@@ -6345,6 +6345,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 27BE3B451E4D63AF0012B74A /* CBL Swift.xcconfig */;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 			};
 			name = Debug;
 		};
@@ -6577,6 +6578,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 27BE3B451E4D63AF0012B74A /* CBL Swift.xcconfig */;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 			};
 			name = Debug_EE;
 		};
