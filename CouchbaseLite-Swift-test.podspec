@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.source                = { :git => 'https://github.com/matsunanaro/couchbase-lite-ios.git', :branch => 'fix_xcode_switch', :submodules => true }
 
   s.prepare_command = <<-CMD
-    sh Scripts/prepare_cocoapods.sh "CBL Swift"
+    sh Scripts/prepare_cocoapods.sh "CBL_Swift"
   CMD
 
   s.ios.preserve_paths = 'frameworks/CBL Swift/iOS/CouchbaseLiteSwift.framework'
